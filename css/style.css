@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: var(--fonte1);
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+}
+
+.especial{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-family: var(--fonte2);
+    font-size: 9em;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+section p{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: var(--fonte3);
+    font-size: 3em;
+    width: 535px;
+    line-height: 2em;
+    font-weight: lighter;
+}
+
+.paralax1{
+    background: white url("../assets/background001.jpg") no-repeat right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0 80px 40px;
+    margin: 120px 0 0 -20px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.paralax2{
+    background: white url("../assets/background002.jpg") no-repeat right top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0 80px 40px;
+    margin: 120px 0 0 -20px;
+}
+
+.paralax2 p{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 570px;
+    text-shadow: 1px 1px 3px black;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 120px;
+}
